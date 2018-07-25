@@ -1,0 +1,17 @@
+.login .form-group {
+    input {
+        border-radius: 2px;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 480px) {
+    .login {
+        padding: 60px 0;
+    }
+    .login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
